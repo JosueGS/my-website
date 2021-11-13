@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>  
+
+    link(rel="stylesheet", href="https://unpkg.com/swiper/swiper-bundle.min.css")
+
+    link(rel="stylesheet", href="css/styles.css")
+
+
+
+    title Document
+  body
+    header.header
+      section.container.header__content
+        .header__desktop.flex
+          .header__logo.flex-v.flex-c
+            a J.
+          nav.header__nav.flex
+            a(href="") Inicio
+            a(href="") Acerca de mi
+            a(href="") Portafolio
+            a(href="") Blog
+            a(href="") Contacto
+        .header__mobil.flex
+          .header__iconmenu#btnmenu
+            i.fas.fa-bars
+          .header__mlogo
+            a J.
+          #mobilnav.header__mnav.flex-v
+            a(href="") Inicio
+            a(href="") Acerca de mi
+            a(href="") Portafolio
+            a(href="") Blog
+            a(href="") Contacto
+
+    section.coverBanner
+      .coverBanner__content.flex
+        .coverBanner__cleft.flex.flex-c
+          .coverBanner__cleft__content.flex-v.flex-c
+            span Hola !
+            h1 Soy Josue
+            p Maquetador UI & Desarrollador Frontend Angular
+            a.btn_style(href="#") Contáctame
+
+        .coverBanner__cright
+          figure 
+            img(src="./images/profile2.png", alt="")
+
+    section.about.flex
+      .about__left
+        figure 
+          img(src="./images/profile.png", alt="")
+      .about__right.flex-v.flex-c
+        article.about__right__content
+          h2 Acerca de mi
+          p  
+            | Desarrollador Frontend con más de 2 años de experiencia en la 
+            | creación de sitios web y 1 año en aplicaciones web, trabajando 
+            | en equipo con metodologías ágiles. Proactivo, autodidacta, 
+            | flexible y apasionado por el orden y la funcionalidad del diseño.
+          a.btn_style(href="./resources/josue-gs.pdf", download="") Descargar CV
+
+    section.speciliazing
+      .speciliazing__content
+        .speciliazing__intro.flex
+          h2 Especialista en
+          span
+          p 
+            | Desarrollador Frontend con más de 2 años de experiencia en la 
+            | creación de sitios web y 1 año en aplicaciones web, trabajando 
+            | en equipo con metodologías ágiles. Proactivo, autodidacta, 
+            | flexible y apasionado por el orden y la funcionalidad del diseño.
+        article.speciliazing__group
+          .speciliazing__item.bg_img
+            h3 Frontend Developer
+            p Capitalize on low hanging fruit to identify.
+            a Read more
+          //- .speciliazing__item.gray
+          //-   h3 UI/UX Design
+          //-   p Capitalize on low hanging fruit to identify.
+          //-   a Read more
+          .speciliazing__item.orange
+            h3 IU Developer
+            p Capitalize on low hanging fruit to identify.
+            a Read more
+
+    section.portfolio
+      .portfolio__content
+        .portfolio__intro.flex.container
+          h2 Portafolio
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste porro, quod id fugit ex facilis rerum, aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          a.btn_style(href="") Ver todo
+      .portfolio__gsection
+        figure 
+          img(src="./images/frontend.jpg", alt="")
+        .portfolio__pgallery
+          .pgallery__container
+            .pgallery__item
+              figure
+                img(src="./images/city1.jpg", alt="")
+            .pgallery__item
+              figure
+                img(src="./images/city2.jpg", alt="")
+            .pgallery__item
+              figure
+                img(src="./images/city3.jpg", alt="")
+  
+
+
+
+    section.hireme
+      .hireme__content.flex.container_two
+        .block__one
+          h2 Por qué contratarme ?
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reprehenderit est recusandae at aspernatur! Praesentium ullam labore consectetur sint, blanditiis odio.
+          a.btn_style(href="") Hire me
+        .block__two.flex
+          .experience
+            .item__work.flex
+              .work__content
+                p Frontend Developer en Slmiledu
+                span Marzo - Noviembre 2020
+            .item__work.flex
+              .work__content
+                p Maquetador UI en Educación Psicologica
+                span Diciembre 2019 - Febrero 2020
+            .item__work.flex
+              .work__content
+                p Maquetador UI en Evolucionmedia
+                span Febrero 2018 - Enero 2020
+    section.customer
+      .customer__content.container_two.flex
+        .customer__item
+        .customer__item
+        .customer__item
+        .customer__item
+    
+
+    section.peoplesay
+      .peoplesay__content
+        .peoplesay__intro
+            h2 Lo que los profesionales dicen
+        .peoplesay__back.flex
+            .peoplesay__imgAnimation
+              figure
+                img(src="http://t.commonsupport.com/adro/images/icons/ring-circle.png", alt="")
+            .peoplesay__pnetwork
+              .swiper.swiper-perfilRed
+                .swiper-wrapper
+                  .swiper-slide
+                    figure
+                      img(src="./images/bg/teamwork.png", alt="")
+                  .swiper-slide
+                    figure
+                      img(src="./images/bg/teamwork_2.png", alt="")
+                  .swiper-slide
+                    figure
+                      img(src="./images/bg/teamwork_3.png", alt="")
+                  .swiper-slide
+                    figure
+                      img(src="./images/bg/teamwork_4.png", alt="")
+                    
+
+            .container_testimonial.flex
+              .swiper.swiper-container
+                .swiper-wrapper
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure
+                          img(src="./images/perfiles/cristian.jfif", alt="")
+                        .item_person_date
+                          h4 Cristian Sotomayor
+                          p Software Developer en Corporación Educativa Pamer
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure
+                          img(src="./images/perfiles/nino.jfif", alt="")
+                        .item_person_date
+                          h4 Anthony Cajacuri Ordoñez
+                          p Desarrollador Front End Angular, React Js & Back End NodeJS
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure 
+                          img(src="./images/perfiles/nicolas.jfif", alt="")
+                        .item_person_date
+                          h4 Nicolas Ticona Valdivia
+                          p Frontend Developer at Applaudo Studios
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure 
+                          img(src="./images/perfiles/bladimir.jfif", alt="")
+                        .item_person_date
+                          h4 Bladimir Ricardo Ventura Sulca
+                          p Center Leader Developer en Everis
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure 
+                          img(src="./images/perfiles/jair.jfif", alt="")
+                        .item_person_date
+                          h4 Jair Jaime Cierto Zavaleta
+                          p Psicólogo | Coach | Facilitador de Aprendizajes.
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure 
+                          img(src="./images/perfiles/dricardo.jfif", alt="")
+                        .item_person_date
+                          h4 Ricardo Nuñez Alvarado
+                          p Fundador de Evolucionmedia
+                  .swiper-slide
+                    .content_testimonial
+                      p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+                      .item_person.flex
+                        figure 
+                          img(src="./images/perfiles/zoilita.jfif", alt="")
+                        .item_person_date
+                          h4 Elizabeth Vásquez Centurión
+                          p Community manager en Bambu Home Perú
+
+
+                .item_arrows.flex
+                  .swiper-button-prev
+                    figure 
+                      img(src="./images/icons/arrow_left.svg", alt="arrow_left")
+                  .swiper-button-next
+                    figure 
+                      img(src="./images/icons/arrow_right.svg", alt="arrow_right")
+
+              //- .content_testimonial
+              //-     p.description_testimonial Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur accusantium veniam perspiciatis sunt nulla, sit maxime ratione vel cumque dolore blanditiis molestias molestiae sapiente, nesciunt a similique temporibus eaque.
+              //-     .item_person.flex
+              //-       figure
+              //-         img(src="./images/peoplesay/perfilx800.jpg", alt="")
+              //-       .item_person_date
+              //-         h4 Josue GS
+              //-         p UI Designer & CEO
+
+
+    //- section.test-slider.container_three
+      
+            
+              
+            
+    section.contact
+      .contact__content.flex-v.flex-c.container_two
+        .contact__info.flex-v.flex-c
+            p Tienes algún proyecto en mente ? Contáctame
+            h5 josuegsdev@gmail.com
+
+    footer.footer
+      .footer__content
+        .footer__nav.flex
+          a(href="") Inicio
+          a(href="") Acerca de mi
+          a(href="") Portafolio
+          a(href="") Blog
+          a(href="") Contacto
+
+        .footer__social.flex.flex-c
+          a(href="www.linkedin.com/in/josuegsuarez") 
+            <i class="fab fa-linkedin-in"></i>
+            //- <i class="fab fa-linkedin"></i>
+          a(href="") 
+            <i class="fab fa-github-alt"></i>
+            //- <i class="fab fa-github"></i>
+          a(href="https://api.whatsapp.com/send?phone=+51948966291" ) 
+            <i class="fab fa-whatsapp"></i>
+          a(href="https://t.me/josuegss") 
+            <i class="fab fa-telegram-plane"></i>
+        
+        .footer__copyright.flex.flex-c
+          p  JosueGS 2021. Todos los derechos reservados  &copy;
+
+    //- Arifur Rahman Tushar 
+    //- <img style="width:100%; height:auto;  position: absolute; top:0; z-index: -2; opacity: 0.5;" src="./images/web.jpg" alt="">
+
+    //- swiper
+    script(src="https://unpkg.com/swiper/swiper-bundle.min.js")  
+
+    script(src="js/scripts-min.js")
